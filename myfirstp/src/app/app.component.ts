@@ -16,4 +16,14 @@ export class AppComponent {
     return this.fname+this.lname;
   }
 
+/* checkproperty:string="Komal Vispute Property"; 
+
+isHidden:boolean=false; */
+
+texts:string="";
+myfun(){
+  console.log("Welcome ......");
+  this.texts="welcome Technical channel";
+}
+
 }
