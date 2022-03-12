@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Komal first Project';
+  video:string="Please subscribe ";
+  like:string="please Share with your friends";
+
+  fname:string="Komal";
+  lname:string="Vispute";
+  you():string{
+    return this.fname+this.lname;
+  }
+
 }
