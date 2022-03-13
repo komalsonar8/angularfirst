@@ -13,6 +13,7 @@ export class AppComponent {
 
   mulltiCssClasses:string="colorChange bgColor";
   singlecsschange:boolean=true;
+  inlinecolor:string="red";
 
   fname:string="Komal";
   lname:string="Vispute";
