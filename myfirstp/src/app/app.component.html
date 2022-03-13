@@ -367,8 +367,13 @@
     
     <button type="button" class="btn btn-link">Link</button>
   </div>
-  
-
+  <br>
+  <div>
+    <button class="btn btn-danger" [class.active]="isActive" >Active Class</button>
+    <button class="btn btn-primary" [class]="mulltiCssClasses">MultiClasses</button>
+  </div>
+<br>
+<button class="btn btn-primary" [class.singlecsscolorchange]="singlecsschange">Single Css </button>
   <div>
     <app-registration></app-registration>
   </div>

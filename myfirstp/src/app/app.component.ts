@@ -9,6 +9,10 @@ export class AppComponent {
   title = 'Komal first Project';
   video:string="Please subscribe ";
   like:string="please Share with your friends";
+  isActive:boolean=true;
+
+  mulltiCssClasses:string="colorChange bgColor";
+  singlecsschange:boolean=true;
 
   fname:string="Komal";
   lname:string="Vispute";
@@ -25,5 +29,7 @@ myfun(){
   console.log("Welcome ......");
   this.texts="welcome Technical channel";
 }
+
+
 
 }
